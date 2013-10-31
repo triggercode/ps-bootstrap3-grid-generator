@@ -1,0 +1,20 @@
+{
+  "name": "ps-bootstrap3-grid-generator",
+  "version": "0.0.1",
+  "description": "Photoshop scripts to generate guide grids for Twitter Bootstrap 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "photoshop",
+    "bootstrap"
+  ],
+  "author": "triggercode GmbH (Tobias Braner)",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-mocha-test": "~0.7.0"
+  }
+}
