@@ -1,6 +1,8 @@
 grid_definitions = 
   grid_number_of_columns: 12
   grid_half_gutter: 15
+  grid_mobile_landscape: 480
+  grid_mobile_portrait: 320
   grid_tablet_width: 750  
   grid_desktop_width: 970
   grid_desktop_large_width: 1170

@@ -1,14 +1,14 @@
-var Column, Grid, GridToPs, draw_grid, grid_desktop_large_width, grid_desktop_width, grid_half_gutter, grid_number_of_columns, grid_tablet_width;
+var Column, Grid, GridToPs, draw_grid, grid_definitions;
 
-grid_number_of_columns = 12;
-
-grid_half_gutter = 15;
-
-grid_desktop_large_width = 1170;
-
-grid_desktop_width = 970;
-
-grid_tablet_width = 750;
+grid_definitions = {
+  grid_number_of_columns: 12,
+  grid_half_gutter: 15,
+  grid_mobile_landscape: 480,
+  grid_mobile_portrait: 320,
+  grid_tablet_width: 750,
+  grid_desktop_width: 970,
+  grid_desktop_large_width: 1170
+};
 
 Grid = Grid = (function() {
   function Grid(grid_definition) {
@@ -93,10 +93,11 @@ draw_grid = function(grid_definition) {
 if (typeof module !== "undefined" && module !== null) {
   module.exports.Grid = Grid;
   module.exports.Column = Column;
+  module.exports.grid_definitions = grid_definitions;
 }
 
 draw_grid({
-  width: grid_desktop_width,
-  columns: grid_number_of_columns,
-  gutter: grid_half_gutter
+  width: grid_definitions.grid_desktop_width,
+  columns: grid_definitions.grid_number_of_columns,
+  gutter: grid_definitions.grid_half_gutter
 });

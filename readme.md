@@ -38,3 +38,11 @@ projekt you need node.js and grunt. So
 1. Clone the projekt
 2. run $ npm install
 3. run $ grunt test
+
+## Version History
+
+### 0.0.1
+- ability to generate grids for large desktops, desktops and tablets
+
+### 0.0.2
+- added support for mobile (iPhone 3/4) grids

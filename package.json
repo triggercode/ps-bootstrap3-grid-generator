@@ -1,6 +1,6 @@
 {
   "name": "ps-bootstrap3-grid-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Photoshop scripts to generate guide grids for Twitter Bootstrap 3",
   "main": "index.js",
   "scripts": {
