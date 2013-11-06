@@ -10,11 +10,13 @@ Web Designers
 
 ## Installation
 
-Hit download and copy the three files from the dist directory
+Hit download and copy the *.jsx files files from the *dist directory*
 
 - Twitter Bootstrap 3 Grid Desktop.jsx
 - Twitter Bootstrap 3 Grid Large Desktop.jsx
 - Twitter Bootstrap 3 Grid Tablet.jsx
+- Twitter Bootstrap 3 Grid iPhone Landscape.jsx
+- Twitter Bootstrap 3 Grid iPhone Portrait.jsx
 
 into your the following folder
 
