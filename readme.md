@@ -20,7 +20,7 @@ Hit download and copy the \*.jsx files files from the *dist directory*
 
 into your the following folder
 
-<your_photoshop_folder>/presets/scripts
+\<your_photoshop_folder\>/presets/scripts
 
 Then *restart Photoshop*.
 
@@ -35,9 +35,9 @@ Files > Scripts > Twitter Bootstrap 3 Grid Desktop
 ## Build
 
 The script was coded with coffeescript which is compiled to javascript. To build the
-projekt you need node.js and grunt. So
+project you need node.js and grunt. So
 
-1. Clone the projekt
+1. Clone the project
 2. run $ npm install
 3. run $ grunt test
 
