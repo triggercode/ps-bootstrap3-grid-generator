@@ -49,3 +49,6 @@ project you need node.js and grunt. So
 
 ### 0.0.2
 - added support for mobile (iPhone 3/4) grids
+
+### 0.0.3
+- added support for full width grids (thanks to arnaudriegert)
