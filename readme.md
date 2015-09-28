@@ -17,6 +17,7 @@ Hit download and copy the \*.jsx files files from the *dist directory*
 - Twitter Bootstrap 3 Grid Tablet.jsx
 - Twitter Bootstrap 3 Grid iPhone Landscape.jsx
 - Twitter Bootstrap 3 Grid iPhone Portrait.jsx
+- Twitter Bootstrap 3 Grid Fluid.jsx
 
 into your the following folder
 

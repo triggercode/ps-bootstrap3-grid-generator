@@ -84,6 +84,9 @@ draw_grid = function(grid_definition) {
   var active_ps_doc, grid, grid_to_ps;
   if (app.documents.length > 0) {
     active_ps_doc = app.activeDocument;
+    if (grid_definition.width == null) {
+      grid_definition.width = active_ps_doc.width;
+    }
     grid = new Grid(grid_definition);
     grid_to_ps = new GridToPs(active_ps_doc, grid);
     return grid_to_ps.draw();

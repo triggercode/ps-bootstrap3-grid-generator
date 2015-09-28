@@ -44,6 +44,8 @@ GridToPs = class GridToPs
 draw_grid = (grid_definition) ->
   if app.documents.length > 0
     active_ps_doc = app.activeDocument
+    if not grid_definition.width?
+      grid_definition.width = active_ps_doc.width
 
     grid = new Grid(grid_definition)
     grid_to_ps = new GridToPs(active_ps_doc, grid)

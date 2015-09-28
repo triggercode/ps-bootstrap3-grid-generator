@@ -10,6 +10,7 @@ module.exports = (grunt) ->
           'dist/Twitter Bootstrap 3 Grid Tablet.jsx':        ['src/grid.coffee','src/tablets.coffee']
           'dist/Twitter Bootstrap 3 Grid Desktop.jsx':       ['src/grid.coffee','src/desktops.coffee']
           'dist/Twitter Bootstrap 3 Grid Large Desktop.jsx': ['src/grid.coffee','src/large-desktops.coffee']
+          'dist/Twitter Bootstrap 3 Grid Fluid.jsx':         ['src/grid.coffee','src/fluid.coffee']
 
     mochaTest:
       files: ['test/**/*.coffee']
